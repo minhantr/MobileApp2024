@@ -7,16 +7,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
-import vn.edu.usth.weather.ForecastFragment;
 
 public class WeatherActivity extends AppCompatActivity {
-
     private static final String TAG = "WeatherActivity";
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Log.i(TAG, "onCreate");
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_weather);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
@@ -24,9 +20,8 @@ public class WeatherActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-
         ForecastFragment firstFragment = new ForecastFragment();
-        getSupportFragmentManager().beginTransaction().add(R.id.container, firstFragment).commit();
+        getSupportFragmentManager().beginTransaction().add(R.id.main, firstFragment).commit();
     }
 
     @Override
@@ -59,3 +54,4 @@ public class WeatherActivity extends AppCompatActivity {
         Log.i(TAG, "onDestroy");
     }
 }
+
