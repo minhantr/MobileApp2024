@@ -15,20 +15,16 @@ public class ForecastFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        LinearLayout layout = new LinearLayout(getActivity());
-        layout.setOrientation(LinearLayout.VERTICAL);
-        layout.setBackgroundColor(Color.parseColor("#2000FF00"));
+        View view = inflater.inflate(R.layout.fragment_forecast, container, false);
 
-        TextView textView = new TextView(getActivity());
-        textView.setText("Thursday");
-        textView.setTextSize(30);
+        // Optionally, find and update specific views
+        TextView textView1 = view.findViewById(R.id.textView1);
+        TextView textView2 = view.findViewById(R.id.textView2);
+        ImageView imageView = view.findViewById(R.id.imageView);
 
-        ImageView imageView = new ImageView(getActivity());
-        imageView.setImageResource(R.drawable.cloudy); // Replace 'cloudy' with your icon name
+        // Perform additional setup if needed
+        // For example, you could set text or images dynamically here
 
-        layout.addView(textView);
-        layout.addView(imageView);
-
-        return layout;
+        return view;
     }
 }

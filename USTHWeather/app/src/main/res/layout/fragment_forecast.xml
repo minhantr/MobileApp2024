@@ -6,10 +6,395 @@
     android:layout_height="match_parent"
     tools:context=".ForecastFragment">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#48d1cc"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="20dp"
+            android:gravity="center"
+            android:text="USTH Weather"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/cloudy" />
+        android:layout_margin="15dp"
+        android:layout_gravity="bottom"
+        android:background="#afeeee"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="20dp"
+                android:gravity="center"
+                android:text="Monday"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginHorizontal="20dp"
+                android:src="@drawable/cloudy" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="10dp"
+                android:gravity="center"
+                android:text="Partly Cloudy\n24C-31C"
+                android:textAlignment="center"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="20dp"
+                android:gravity="center"
+                android:text="Tuesday"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginHorizontal="20dp"
+                android:src="@drawable/rain" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="10dp"
+                android:gravity="center"
+                android:text="Showers\n24C-30C"
+                android:textAlignment="center"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="20dp"
+                android:gravity="center"
+                android:text="Wednesday"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginHorizontal="20dp"
+                android:src="@drawable/rainy" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="10dp"
+                android:gravity="center"
+                android:text="Rain\n25C-29C"
+                android:textAlignment="center"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="20dp"
+                android:gravity="center"
+                android:text="Thursday"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginHorizontal="20dp"
+                android:src="@drawable/storm" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="10dp"
+                android:gravity="center"
+                android:text="Thunderstorms\n22C-27C"
+                android:textAlignment="center"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="20dp"
+                android:gravity="center"
+                android:text="Friday"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginHorizontal="20dp"
+                android:src="@drawable/clouds" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="10dp"
+                android:gravity="center"
+                android:text="Mostly Cloudy\n22C-30C"
+                android:textAlignment="center"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="20dp"
+                android:gravity="center"
+                android:text="Saturday"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginHorizontal="20dp"
+                android:src="@drawable/clouds" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="10dp"
+                android:gravity="center"
+                android:text="Partly Cloudy\n24C-31C"
+                android:textAlignment="center"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="20dp"
+                android:gravity="center"
+                android:text="Sunday"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginHorizontal="20dp"
+                android:src="@drawable/rainy" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="10dp"
+                android:gravity="center"
+                android:text="Showers\n24C-27C"
+                android:textAlignment="center"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="20dp"
+                android:gravity="center"
+                android:text="Monday"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginHorizontal="20dp"
+                android:src="@drawable/cloudy" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="10dp"
+                android:gravity="center"
+                android:text="Partly Cloudy\n24C-29C"
+                android:textAlignment="center"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="20dp"
+                android:gravity="center"
+                android:text="Tuesday"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginHorizontal="20dp"
+                android:src="@drawable/sun" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="10dp"
+                android:gravity="center"
+                android:text="Sunny\n26C-32C"
+                android:textAlignment="center"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
 
 </FrameLayout>
