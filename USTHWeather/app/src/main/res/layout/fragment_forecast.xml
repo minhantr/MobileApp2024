@@ -8,12 +8,11 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="wrap_content"
         android:background="#48d1cc"
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textView1"
             android:layout_width="200dp"
             android:layout_height="80dp"
             android:layout_gravity="center"
@@ -22,6 +21,23 @@
             android:text="USTH Weather"
             android:textSize="25dp"
             android:textStyle="bold" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/setting"
+            android:background="#48d1cc" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/refresh"
+            android:layout_marginHorizontal="20dp"
+            android:background="#48d1cc" />
+
+
 
     </LinearLayout>
 
@@ -41,7 +57,7 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView1"
+
                 android:layout_width="80dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
@@ -53,14 +69,14 @@
                 android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/imageView"
+
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:layout_marginHorizontal="20dp"
                 android:src="@drawable/cloudy" />
 
             <TextView
-                android:id="@+id/textView2"
+
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
@@ -81,7 +97,7 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView1"
+
                 android:layout_width="80dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
@@ -93,14 +109,14 @@
                 android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/imageView"
+
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:layout_marginHorizontal="20dp"
                 android:src="@drawable/rain" />
 
             <TextView
-                android:id="@+id/textView2"
+
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
@@ -121,7 +137,7 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView1"
+
                 android:layout_width="80dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
@@ -133,14 +149,14 @@
                 android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/imageView"
+
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:layout_marginHorizontal="20dp"
                 android:src="@drawable/rainy" />
 
             <TextView
-                android:id="@+id/textView2"
+
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
@@ -161,7 +177,7 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView1"
+
                 android:layout_width="80dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
@@ -173,14 +189,14 @@
                 android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/imageView"
+
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:layout_marginHorizontal="20dp"
                 android:src="@drawable/storm" />
 
             <TextView
-                android:id="@+id/textView2"
+
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
@@ -201,7 +217,7 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView1"
+
                 android:layout_width="80dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
@@ -213,14 +229,14 @@
                 android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/imageView"
+
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:layout_marginHorizontal="20dp"
                 android:src="@drawable/clouds" />
 
             <TextView
-                android:id="@+id/textView2"
+
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
@@ -241,7 +257,7 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView1"
+
                 android:layout_width="80dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
@@ -253,14 +269,14 @@
                 android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/imageView"
+
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:layout_marginHorizontal="20dp"
                 android:src="@drawable/clouds" />
 
             <TextView
-                android:id="@+id/textView2"
+
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
@@ -281,7 +297,7 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView1"
+
                 android:layout_width="80dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
@@ -293,14 +309,14 @@
                 android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/imageView"
+
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:layout_marginHorizontal="20dp"
                 android:src="@drawable/rainy" />
 
             <TextView
-                android:id="@+id/textView2"
+
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
@@ -321,7 +337,7 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView1"
+
                 android:layout_width="80dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
@@ -333,14 +349,14 @@
                 android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/imageView"
+
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:layout_marginHorizontal="20dp"
                 android:src="@drawable/cloudy" />
 
             <TextView
-                android:id="@+id/textView2"
+
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
@@ -361,7 +377,7 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView1"
+
                 android:layout_width="80dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
@@ -373,14 +389,14 @@
                 android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/imageView"
+
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:layout_marginHorizontal="20dp"
                 android:src="@drawable/sun" />
 
             <TextView
-                android:id="@+id/textView2"
+
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
