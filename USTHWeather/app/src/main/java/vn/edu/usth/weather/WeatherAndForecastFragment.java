@@ -61,14 +61,11 @@ public class WeatherAndForecastFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_weather_and_forecast, container, false);
-        FragmentManager fragmentManager = getChildFragmentManager();
-        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        ForecastFragment forecastFragment = new ForecastFragment();
-        WeatherFragment weatherFragment = new WeatherFragment();
-        fragmentTransaction.replace(R.id.fragment_forecast, forecastFragment);
-        fragmentTransaction.replace(R.id.fragment_weather, weatherFragment);
-        fragmentTransaction.commit();
 
+        FragmentTransaction transaction = getChildFragmentManager().beginTransaction();
+        transaction.replace(R.id.fragment_weather, new WeatherFragment());
+        transaction.replace(R.id.fragment_forecast, new ForecastFragment());
+        transaction.commit();
         // Inflate the layout for this fragment
         return view;
     }
