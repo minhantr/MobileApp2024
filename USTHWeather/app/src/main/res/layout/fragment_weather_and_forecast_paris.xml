@@ -7,14 +7,14 @@
     tools:context=".WeatherAndForecastFragment">
 
     <fragment
-        android:id="@+id/weather"
+        android:id="@+id/weather_paris"
         android:layout_width="match_parent"
         android:layout_margin="15dp"
         android:layout_height="200dp"
         android:name="vn.edu.usth.weather.WeatherFragment"/>
 
     <fragment
-        android:id="@+id/forecast"
+        android:id="@+id/forecast_paris"
         android:layout_width="match_parent"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"

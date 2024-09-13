@@ -18,6 +18,10 @@ public class ForecastFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_forecast, container, false);
 
         // Optionally, find and update specific views
+        TextView textView1 = view.findViewById(R.id.textView1);
+        TextView textView2 = view.findViewById(R.id.textView2);
+        ImageView imageView = view.findViewById(R.id.imageView);
+
         // Perform additional setup if needed
         // For example, you could set text or images dynamically here
 
