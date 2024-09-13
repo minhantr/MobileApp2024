@@ -1,5 +1,24 @@
 <resources>
     <string name="app_name">USTH Weather</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="partly_cloudy_n24c_31c">Partly Cloudy\n24C-31C</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="showers_n24c_30c">Showers\n24C-30C</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="rain_n25c_29c">Rain\n25C-29C</string>
+    <string name="thursday">Thursday</string>
+    <string name="thunderstorms_n22c_27c">Thunderstorms\n22C-27C</string>
+    <string name="friday">Friday</string>
+    <string name="mostly_cloudy_n22c_30c">Mostly Cloudy\n22C-30C</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="showers_n24c_27c">Showers\n24C-27C</string>
+    <string name="monday">Monday</string>
+    <string name="partly_cloudy_n24c_29c">Partly Cloudy\n24C-29C</string>
+    <string name="sunny_n26c_32c">Sunny\n26C-32C</string>
+    <string name="_12c_n_cloudy">12C \n Cloudy</string>
+    <string name="paris">Paris</string>
+    <string name="title_hanoi">Hanoi</string>
+    <string name="title_paris">Paris</string>
+    <string name="title_hcm">HCM</string>
 </resources>

@@ -20,7 +20,10 @@ public class WeatherActivity extends AppCompatActivity {
 
     public class HomeFragmentPagerAdapter extends FragmentPagerAdapter {
         private final int PAGE_COUNT = 3;
-        private String titles[] = new String[] { "Hanoi", "Paris", "HCM" };
+        private String titles[] = new String[] {
+                getString(R.string.title_hanoi),
+                getString(R.string.title_paris),
+                getString(R.string.title_hcm) };
         private Integer layouts[]=new Integer[]{R.layout.fragment_weather_and_forecast_hanoi,R.layout.fragment_weather_and_forecast_paris,R.layout.fragment_weather_and_forecast_hcm};
 
         public HomeFragmentPagerAdapter(@NonNull FragmentManager fm) {

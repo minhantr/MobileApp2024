@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Thời tiết USTH</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="partly_cloudy_n24c_31c">Có mây\n24C-31C</string>
+    <string name="tuesday">Thứ ba</string>
+    <string name="showers_n24c_30c">Mưa rào\n24C-30C</string>
+    <string name="wednesday">Thứ tư</string>
+    <string name="rain_n25c_29c">Có mưa\n25C-29C</string>
+    <string name="thursday">Thứ năm</string>
+    <string name="thunderstorms_n22c_27c">Có dông\n22C-27C</string>
+    <string name="friday">Thứ sáu</string>
+    <string name="mostly_cloudy_n22c_30c">Nhiều mây\n22C-30C</string>
+    <string name="saturday">Thứ bảy</string>
+    <string name="sunday">Chủ nhật</string>
+    <string name="showers_n24c_27c">Mưa rào\n24C-27C</string>
+    <string name="monday">Thứ hai</string>
+    <string name="partly_cloudy_n24c_29c">Có mây\n24C-29C</string>
+    <string name="sunny_n26c_32c">Nắng\n26C-32C</string>
+    <string name="_12c_n_cloudy">12C \n Nhiều mây</string>
+    <string name="paris">Pa-ri</string>
+    <string name="title_hanoi">Hà Nội</string>
+    <string name="title_paris">Pa-ri</string>
+    <string name="title_hcm">Hồ Chí Minh </string>
+</resources>

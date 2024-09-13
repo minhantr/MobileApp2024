@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:background="#afeeee"
+        android:background="@color/lightblue"
         android:orientation="vertical">
 
 
@@ -22,7 +22,6 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView1"
                 android:layout_width="80dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
@@ -31,23 +30,22 @@
                 android:text="Monday"
                 android:textAlignment="center"
                 android:textSize="15dp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
 
             <ImageView
-                android:id="@+id/imageView"
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:layout_marginHorizontal="20dp"
                 android:src="@drawable/cloudy" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
                 android:layout_marginHorizontal="10dp"
                 android:gravity="center"
-                android:text="Partly Cloudy\n24C-31C"
+                android:text="@string/partly_cloudy_n24c_31c"
                 android:textAlignment="center"
                 android:textSize="10dp"
                 android:textStyle="bold" />
@@ -62,32 +60,29 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView1"
                 android:layout_width="80dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
                 android:layout_marginHorizontal="20dp"
                 android:gravity="center"
-                android:text="Tuesday"
+                android:text="@string/tuesday"
                 android:textAlignment="center"
                 android:textSize="15dp"
                 android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/imageView"
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:layout_marginHorizontal="20dp"
                 android:src="@drawable/rain" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
                 android:layout_marginHorizontal="10dp"
                 android:gravity="center"
-                android:text="Showers\n24C-30C"
+                android:text="@string/showers_n24c_30c"
                 android:textAlignment="center"
                 android:textSize="10dp"
                 android:textStyle="bold" />
@@ -102,32 +97,29 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView1"
                 android:layout_width="80dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
                 android:layout_marginHorizontal="20dp"
                 android:gravity="center"
-                android:text="Wednesday"
+                android:text="@string/wednesday"
                 android:textAlignment="center"
                 android:textSize="15dp"
                 android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/imageView"
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:layout_marginHorizontal="20dp"
                 android:src="@drawable/rainy" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
                 android:layout_marginHorizontal="10dp"
                 android:gravity="center"
-                android:text="Rain\n25C-29C"
+                android:text="@string/rain_n25c_29c"
                 android:textAlignment="center"
                 android:textSize="10dp"
                 android:textStyle="bold" />
@@ -142,32 +134,29 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView1"
                 android:layout_width="80dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
                 android:layout_marginHorizontal="20dp"
                 android:gravity="center"
-                android:text="Thursday"
+                android:text="@string/thursday"
                 android:textAlignment="center"
                 android:textSize="15dp"
                 android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/imageView"
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:layout_marginHorizontal="20dp"
                 android:src="@drawable/storm" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
                 android:layout_marginHorizontal="10dp"
                 android:gravity="center"
-                android:text="Thunderstorms\n22C-27C"
+                android:text="@string/thunderstorms_n22c_27c"
                 android:textAlignment="center"
                 android:textSize="10dp"
                 android:textStyle="bold" />
@@ -182,32 +171,29 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView1"
                 android:layout_width="80dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
                 android:layout_marginHorizontal="20dp"
                 android:gravity="center"
-                android:text="Friday"
+                android:text="@string/friday"
                 android:textAlignment="center"
                 android:textSize="15dp"
                 android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/imageView"
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:layout_marginHorizontal="20dp"
                 android:src="@drawable/clouds" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
                 android:layout_marginHorizontal="10dp"
                 android:gravity="center"
-                android:text="Mostly Cloudy\n22C-30C"
+                android:text="@string/mostly_cloudy_n22c_30c"
                 android:textAlignment="center"
                 android:textSize="10dp"
                 android:textStyle="bold" />
@@ -222,26 +208,23 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView1"
                 android:layout_width="80dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
                 android:layout_marginHorizontal="20dp"
                 android:gravity="center"
-                android:text="Saturday"
+                android:text="@string/saturday"
                 android:textAlignment="center"
                 android:textSize="15dp"
                 android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/imageView"
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:layout_marginHorizontal="20dp"
                 android:src="@drawable/clouds" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
@@ -262,32 +245,29 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView1"
                 android:layout_width="80dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
                 android:layout_marginHorizontal="20dp"
                 android:gravity="center"
-                android:text="Sunday"
+                android:text="@string/sunday"
                 android:textAlignment="center"
                 android:textSize="15dp"
                 android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/imageView"
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:layout_marginHorizontal="20dp"
                 android:src="@drawable/rainy" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
                 android:layout_marginHorizontal="10dp"
                 android:gravity="center"
-                android:text="Showers\n24C-27C"
+                android:text="@string/showers_n24c_27c"
                 android:textAlignment="center"
                 android:textSize="10dp"
                 android:textStyle="bold" />
@@ -302,32 +282,29 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView1"
                 android:layout_width="80dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
                 android:layout_marginHorizontal="20dp"
                 android:gravity="center"
-                android:text="Monday"
+                android:text="@string/monday"
                 android:textAlignment="center"
                 android:textSize="15dp"
                 android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/imageView"
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:layout_marginHorizontal="20dp"
                 android:src="@drawable/cloudy" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
                 android:layout_marginHorizontal="10dp"
                 android:gravity="center"
-                android:text="Partly Cloudy\n24C-29C"
+                android:text="@string/partly_cloudy_n24c_29c"
                 android:textAlignment="center"
                 android:textSize="10dp"
                 android:textStyle="bold" />
@@ -342,7 +319,6 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView1"
                 android:layout_width="80dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
@@ -354,20 +330,18 @@
                 android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/imageView"
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:layout_marginHorizontal="20dp"
                 android:src="@drawable/sun" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
                 android:layout_marginHorizontal="10dp"
                 android:gravity="center"
-                android:text="Sunny\n26C-32C"
+                android:text="@string/sunny_n26c_32c"
                 android:textAlignment="center"
                 android:textSize="10dp"
                 android:textStyle="bold" />
