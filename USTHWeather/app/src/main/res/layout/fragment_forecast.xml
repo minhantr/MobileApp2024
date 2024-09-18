@@ -27,11 +27,11 @@
                 android:layout_gravity="center"
                 android:layout_marginHorizontal="20dp"
                 android:gravity="center"
-                android:text="Monday"
+                android:text="@string/monday"
                 android:textAlignment="center"
                 android:textSize="15dp"
                 android:textStyle="bold"
-                tools:ignore="HardcodedText" />
+                tools:ignore="HardcodedText,TextSizeCheck" />
 
             <ImageView
                 android:layout_width="45dp"
@@ -230,7 +230,7 @@
                 android:layout_gravity="center"
                 android:layout_marginHorizontal="10dp"
                 android:gravity="center"
-                android:text="Partly Cloudy\n24C-31C"
+                android:text="@string/partly_cloudy_n24c_31c"
                 android:textAlignment="center"
                 android:textSize="10dp"
                 android:textStyle="bold" />
@@ -324,7 +324,7 @@
                 android:layout_gravity="center"
                 android:layout_marginHorizontal="20dp"
                 android:gravity="center"
-                android:text="Tuesday"
+                android:text="@string/tuesday"
                 android:textAlignment="center"
                 android:textSize="15dp"
                 android:textStyle="bold" />

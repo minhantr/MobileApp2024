@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Thời tiết USTH</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="partly_cloudy_n24c_31c">Có mây\n24C-31C</string>
     <string name="tuesday">Thứ ba</string>
     <string name="showers_n24c_30c">Mưa rào\n24C-30C</string>
