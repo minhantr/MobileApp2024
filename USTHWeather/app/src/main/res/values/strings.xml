@@ -20,6 +20,8 @@
     <string name="title_hanoi">Hanoi</string>
     <string name="title_paris">Paris</string>
     <string name="title_hcm">HCM</string>
+    <string name="refresh_tool">refresh_tool</string>
+    <string name="setting">Setting</string>
 
 
 </resources>
